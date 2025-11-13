@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- =========================== -->
+  <!--   PLAGUE    VACCINE HEADIF  -->
+  <!-- =========================== -->
+    <HediffDef>
+
+        <defName>Vaccine_Plague_Immunity</defName>
+
+        <hediffClass>Hediff_High</hediffClass>
+
+        <label>Plague Vaccined</label>
+        <defaultLabelColor>(0.6, 1.0, 0.6)</defaultLabelColor>
+        <description>Makes the pawn imune to Plague.</description>
+        
+        <scenarioCanAdd>true</scenarioCanAdd>
+        <isBad>false</isBad>
+
+        <maxSeverity>1.0</maxSeverity>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.0033</severityPerDay>
+                <showHoursToRecover>false</showHoursToRecover>
+            </li>
+        </comps>
+
+        <stages>
+            <li>
+                <makeImmuneTo>
+                    <li>Plague</li>
+                </makeImmuneTo>
+            </li>
+        </stages>
+
+    </HediffDef>
+
+</Defs>

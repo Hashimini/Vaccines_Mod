@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchProjectDef>
+        <tab>VaccinesMod</tab>
+        <defName>Vaccines_Unlock_GutWorms</defName>
+        <label>GutWorms</label>
+        <description>Research this to be able to synthesize vaccines against gutworms.</description>
+
+
+        <prerequisites>
+            <li>Vaccines_Unlock</li>
+        </prerequisites>
+
+        <baseCost>650</baseCost>
+        <techLevel>Industrial</techLevel>
+
+
+        <researchViewX>3.55</researchViewX>
+        <researchViewY>0.40</researchViewY>
+    </ResearchProjectDef>
+
+</Defs>

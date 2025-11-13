@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- =========================== -->
+  <!--   BLOOD ROT VACCINE RECIPE  -->
+  <!-- =========================== -->
+  <RecipeDef Abstract="False">
+
+    <defName>Produce_Vaccine_BloodRot</defName>
+
+    <label>Produce a vaccine against BloodRot</label>
+    <description>Use blood samples and chemichal components to sintetize and produce an Vaccine that prevents BloodRot.</description>
+    <descriptionHyperlinks>
+      <ThingDef>HemogenPack</ThingDef>
+      <ThingDef>Neutroamine</ThingDef>
+      <ThingDef>Vaccine_BloodRot</ThingDef>
+    </descriptionHyperlinks>
+
+    <jobString>Producing one anti-BloodRot vaccine.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <workAmount>4000</workAmount>
+    <workSkill>Medicine</workSkill>
+    <workSkillLearnFactor>100</workSkillLearnFactor>
+    <skillRequirements>
+      <Medicine>14</Medicine>
+    </skillRequirements>
+
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Drug</soundWorking>
+
+    <displayPriority>1002</displayPriority>
+
+    <researchPrerequisite>Vaccines_Unlock_BloodRot</researchPrerequisite>
+
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HemogenPack</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+
+    <products>
+      <Vaccine_BloodRot>1</Vaccine_BloodRot>
+    </products>
+
+  </RecipeDef>
+</Defs>

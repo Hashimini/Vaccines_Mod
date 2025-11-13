@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ResearchTabDef>
+	
+		<defName>VaccinesMod</defName>
+
+		<label>Vaccines</label>
+        <generalTitle>Vaccines</generalTitle>
+        <generalDescription>Use this tab to unlock vaccines that prevents your's pawns to get illness for long period of times.\nBut it takes alot to research and produce.</generalDescription>
+	
+	</ResearchTabDef>
+
+</Defs>

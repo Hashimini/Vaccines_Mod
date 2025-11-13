@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- =========================== -->
+  <!--   PLAGUE    VACCINE ITEM    -->
+  <!-- =========================== -->
+    <ThingDef ParentName="DrugBase">
+        <defName>Vaccine_Plague</defName>
+
+        <label>Plague Vaccine</label>
+        <description>A sterile syringe containing an engineered immunogenic solution that grants lasting immunity against plague.\nDesigned to prevent plague. Once administered, the subject gains strong resistance to plague.</description> 
+        <descriptionHyperlinks>
+            <ThingDef>HemogenPack</ThingDef>
+        </descriptionHyperlinks>
+        <techLevel>Industrial</techLevel>
+
+        <graphicData>
+            <texPath>Things/Item/Drug/Vaccines/Vaccine_Plague</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <rotatable>false</rotatable>
+
+        <statBases>
+            <WorkToMake>1200</WorkToMake>
+            <MarketValue>6000</MarketValue>
+            <Mass>0.03</Mass>
+        </statBases>
+
+        <ingestible>
+            <foodType>Processed</foodType>
+            <drugCategory>Medical</drugCategory>
+            <baseIngestTicks>660</baseIngestTicks>
+            <chairSearchRadius>20</chairSearchRadius>
+            <nurseable>true</nurseable>
+            <ingestSound>Wear_PowerArmor</ingestSound>
+            <outcomeDoers>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>Vaccine_Plague_Immunity</hediffDef>
+                    <severity>1.0</severity>
+                </li>
+            </outcomeDoers>
+        </ingestible>
+
+        <comps>
+            <li Class="CompProperties_Drug">
+                <listOrder>40</listOrder>
+            </li>
+        </comps>
+
+        <soundInteract>Wear_PowerArmor</soundInteract>
+        <stackLimit>6</stackLimit>
+
+    </ThingDef>
+
+</Defs>

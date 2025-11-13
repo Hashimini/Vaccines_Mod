@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- =========================== -->
+    <!--   MOD                       -->
+    <!-- =========================== -->
+
+    <!-- Tab Info -->
+    <Research_Tab.label>Vaccine</Research_Tab.label>
+
+    <Research_Tab.generalTitle>Vaccine</Research_Tab.generalTitle>
+
+    <Research_Tab.description>
+    Use this tab to unlock vaccines that prevents your's pawns to get illness for long period of times.\n
+    But it takes alot to research and produce.
+    </Research_Tab.description>
+
+    <!-- First Research -->
+    <Research_Vaccines.Label>Vaccines</Research_Vaccines.Label>
+
+    <Research_Vaccines.description>
+    Use the tech provided by the Empire to be able to research Vaccines for various illness common to the RIM.
+    </Research_Vaccines.description>
+
+
+    <!-- =========================== -->
+    <!--   INFECTION VACCINE         -->
+    <!-- =========================== -->
+
+    <!-- Item info -->
+    <Vaccine_Infection.label>Infection Vaccine</Vaccine_Infection.label>
+
+    <Vaccine_Infection.description>
+    A sterile syringe containing an engineered immunogenic solution that grants lasting immunity against infections.\n
+    Designed to prevent bacterial wound infections. Once administered, the subject gains strong resistance to Infection.
+    </Vaccine_Infection.description>
+
+    <!-- Recipe Info -->
+    <Recipe_Vaccine_Infection.jobString>Producing one anti-infection vaccine.</Recipe_Vaccine_Infection.jobString>
+
+    <Recipe_Vaccine_Infection.label>Produce an anti-infection Vaccine</Recipe_Vaccine_Infection.label>
+
+    <Recipe_Vaccine_Infection.description>
+    Use blood samples and chemichal components to synthesize and produce an Vaccine that prevents WoundInfection.
+    </Recipe_Vaccine_Infection.description>
+
+    <!-- Research Info -->
+    <Research_Vaccine_Infection.label>Wound Infection</Research_Vaccine_Infection.label>
+
+    <Research_Vaccine_Infection.description>
+    Research this to be able to synthesize vaccines against wound infections.
+    </Research_Vaccine_Infection.description>
+
+    <!-- Headif Info -->
+    <Headif_Vaccine_Infection.label>Infection Vaccined</Headif_Vaccine_Infection.label>
+
+    <Headif_Vaccine_Infection>
+    Makes the pawn imune to wound infections.
+    </Headif_Vaccine_Infection>
+
+
+    <!-- =========================== -->
+    <!--   MALARIA VACCINE           -->
+    <!-- =========================== -->
+
+    <!-- =========================== -->
+    <!--   FLU       VACCINE         -->
+    <!-- =========================== -->
+
+
+    <!-- =========================== -->
+    <!--   PLAGUE       VACCINE      -->
+    <!-- =========================== -->
+
+    <!-- =========================== -->
+    <!--   SLEEPING       VACCINE    -->
+    <!-- =========================== -->
+
+    <!-- =========================== -->
+    <!--   GUT       VACCINE         -->
+    <!-- =========================== -->
+
+    <!-- =========================== -->
+    <!--   MUSCLE       VACCINE      -->
+    <!-- =========================== -->
+
+    <!-- =========================== -->
+    <!--   ORGAN       VACCINE       -->
+    <!-- =========================== -->
+
+    <!-- =========================== -->
+    <!--   INFANT       VACCINE      -->
+    <!-- =========================== -->
+
+    <!-- =========================== -->
+    <!--   SCARA       VACCINE       -->
+    <!-- =========================== -->
+</LanguageData>

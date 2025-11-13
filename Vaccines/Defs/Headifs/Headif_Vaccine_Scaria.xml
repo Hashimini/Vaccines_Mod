@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- =========================== -->
+  <!--   SCARIA       VACCINE HEADIF  -->
+  <!-- =========================== -->
+    <HediffDef>
+
+        <defName>Vaccine_Scaria_Immunity</defName>
+
+        <hediffClass>Hediff_High</hediffClass>
+
+        <label>Scaria Vaccined</label>
+        <defaultLabelColor>(0.6, 1.0, 0.6)</defaultLabelColor>
+        <description>Makes the pawn imune to scaria.</description>
+        
+        <scenarioCanAdd>true</scenarioCanAdd>
+        <isBad>false</isBad>
+
+        <maxSeverity>1.0</maxSeverity>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.0033</severityPerDay>
+                <showHoursToRecover>false</showHoursToRecover>
+            </li>
+        </comps>
+
+        <stages>
+            <li>
+                <makeImmuneTo>
+                    <li>Scaria</li>
+                </makeImmuneTo>
+            </li>
+        </stages>
+
+    </HediffDef>
+
+</Defs>

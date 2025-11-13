@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- =========================== -->
+  <!--   INFECTION VACCINE HEADIF  -->
+  <!-- =========================== -->
+    <HediffDef>
+
+        <defName>Vaccine_Infection_Immunity</defName>
+
+        <hediffClass>Hediff_High</hediffClass>
+
+        <label>Infection Vaccined</label>
+        <defaultLabelColor>(0.6, 1.0, 0.6)</defaultLabelColor>
+        <description>Makes the pawn imune to wound infections.</description>
+        
+        <scenarioCanAdd>true</scenarioCanAdd>
+        <isBad>false</isBad>
+
+        <maxSeverity>1.0</maxSeverity>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.0033</severityPerDay>
+                <showHoursToRecover>false</showHoursToRecover>
+            </li>
+        </comps>
+
+        <stages>
+            <li>
+                <makeImmuneTo>
+                    <li>WoundInfection</li>
+                </makeImmuneTo>
+            </li>
+        </stages>
+
+    </HediffDef>
+
+</Defs>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- =========================== -->
+  <!--   FLU       VACCINE RECIPE  -->
+  <!-- =========================== -->
+  <RecipeDef Abstract="False">
+
+    <defName>Produce_Vaccine_Flu</defName>
+
+    <label>Produce a vaccine against flu</label>
+    <description>Use blood samples and chemichal components to sintetize and produce an Vaccine that prevents flu.</description>
+    <descriptionHyperlinks>
+      <ThingDef>HemogenPack</ThingDef>
+      <ThingDef>Neutroamine</ThingDef>
+      <ThingDef>Vaccine_Flu</ThingDef>
+    </descriptionHyperlinks>
+
+    <jobString>Producing one anti-flu vaccine.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <workAmount>4000</workAmount>
+    <workSkill>Medicine</workSkill>
+    <workSkillLearnFactor>100</workSkillLearnFactor>
+    <skillRequirements>
+      <Medicine>14</Medicine>
+    </skillRequirements>
+
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Drug</soundWorking>
+
+    <displayPriority>1002</displayPriority>
+
+    <researchPrerequisite>Vaccines_Unlock_Flu</researchPrerequisite>
+
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HemogenPack</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+
+    <products>
+      <Vaccine_Flu>1</Vaccine_Flu>
+    </products>
+
+  </RecipeDef>
+</Defs>

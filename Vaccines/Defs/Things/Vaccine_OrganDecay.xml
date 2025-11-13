@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- =========================== -->
+  <!--   ORGANDECAY       VACCINE ITEM    -->
+  <!-- =========================== -->
+    <ThingDef ParentName="DrugBase">
+        <defName>Vaccine_OrganDecay</defName>
+
+        <label>OrganDecay Vaccine</label>
+        <description>A sterile syringe containing an engineered immunogenic solution that grants lasting immunity against organdecay.\nDesigned to prevent organdecay. Once administered, the subject gains strong resistance to organdecay.</description> 
+        <descriptionHyperlinks>
+            <ThingDef>HemogenPack</ThingDef>
+        </descriptionHyperlinks>
+        <techLevel>Industrial</techLevel>
+
+        <graphicData>
+            <texPath>Things/Item/Drug/Vaccines/Vaccine_OrganDecay</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <rotatable>false</rotatable>
+
+        <statBases>
+            <WorkToMake>1200</WorkToMake>
+            <MarketValue>6000</MarketValue>
+            <Mass>0.03</Mass>
+        </statBases>
+
+        <ingestible>
+            <foodType>Processed</foodType>
+            <drugCategory>Medical</drugCategory>
+            <baseIngestTicks>660</baseIngestTicks>
+            <chairSearchRadius>20</chairSearchRadius>
+            <nurseable>true</nurseable>
+            <ingestSound>Wear_PowerArmor</ingestSound>
+            <outcomeDoers>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>Vaccine_OrganDecay_Immunity</hediffDef>
+                    <severity>1.0</severity>
+                </li>
+            </outcomeDoers>
+        </ingestible>
+
+        <comps>
+            <li Class="CompProperties_Drug">
+                <listOrder>40</listOrder>
+            </li>
+        </comps>
+
+        <soundInteract>Wear_PowerArmor</soundInteract>
+        <stackLimit>6</stackLimit>
+
+    </ThingDef>
+
+</Defs>
