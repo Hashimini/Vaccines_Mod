@@ -19,8 +19,8 @@ All vaccines below share the same base values (WorkToMake, workAmount, MarketVal
 
 # Individual Vaccine Sections
 
-## **Flu**
-
+## **Flu** 
+![Vaccine](Vaccines/Textures/Things/Item/Drug/Vaccines/Vaccine_Flu/Vaccine_Flu_a.png)
 ### ThingDef
 - `defName`: `Vaccine_Flu`
 - Gives: `Vaccine_Flu_Immunity`
@@ -48,6 +48,7 @@ All vaccines below share the same base values (WorkToMake, workAmount, MarketVal
 
 
 ## **BloodRot**
+![Vaccine](Vaccines/Textures/Things/Item/Drug/Vaccines/Vaccine_BloodRot/Vaccine_BloodRot_a.png)
 ### ThingDef
 - `Vaccine_BloodRot`  
 - Gives `Vaccine_BloodRot_Immunity`
@@ -75,6 +76,7 @@ All vaccines below share the same base values (WorkToMake, workAmount, MarketVal
 
 
 ## **GutWorms**
+![Vaccine](Vaccines/Textures/Things/Item/Drug/Vaccines/Vaccine_GutWorms/Vaccine_GutWorms_a.png)
 ### ThingDef
 - `Vaccine_GutWorms`
 - Gives `Vaccine_GutWorms_Immunity`
@@ -102,6 +104,7 @@ All vaccines below share the same base values (WorkToMake, workAmount, MarketVal
 
 
 ## **Infection**
+![Vaccine](Vaccines/Textures/Things/Item/Drug/Vaccines/Vaccine_Infection/Vaccine_Infection_a.png)
 ### ThingDef
 - `Vaccine_Infection` 
 - Gives `Vaccine_Infection_Immunity`
@@ -129,6 +132,7 @@ All vaccines below share the same base values (WorkToMake, workAmount, MarketVal
 
 
 ## **Malaria**
+![Vaccine](Vaccines/Textures/Things/Item/Drug/Vaccines/Vaccine_Malaria/Vaccine_Malaria_a.png)
 ### ThingDef
 - `Vaccine_Malaria`  
 - Gives `Vaccine_Malaria_Immunity`
@@ -156,6 +160,7 @@ All vaccines below share the same base values (WorkToMake, workAmount, MarketVal
 
 
 ## **Muscle Parasites**
+![Vaccine](Vaccines/Textures/Things/Item/Drug/Vaccines/Vaccine_MuscleParasites/Vaccine_MuscleParasites_a.png)
 ### ThingDef
 - `Vaccine_MuscleParasites`  
 - Gives `Vaccine_MuscleParasites_Immunity`
@@ -183,6 +188,7 @@ All vaccines below share the same base values (WorkToMake, workAmount, MarketVal
 
 
 ## **Organ Decay**
+![Vaccine](Vaccines/Textures/Things/Item/Drug/Vaccines/Vaccine_OrganDecay/Vaccine_OrganDecay_a.png)
 ### ThingDef
 - `Vaccine_OrganDecay`
 - Gives `Vaccine_OrganDecay_Immunity`
@@ -210,6 +216,7 @@ All vaccines below share the same base values (WorkToMake, workAmount, MarketVal
 
 
 ## **Plague**
+![Vaccine](Vaccines/Textures/Things/Item/Drug/Vaccines/Vaccine_Plague/Vaccine_Plague_a.png)
 ### ThingDef
 - `Vaccine_Plague`
 - Gives `Vaccine_Plague_Immunity`
@@ -237,6 +244,7 @@ All vaccines below share the same base values (WorkToMake, workAmount, MarketVal
 
 
 ## **Scaria**
+![Vaccine](Vaccines/Textures/Things/Item/Drug/Vaccines/Vaccine_Scaria/Vaccine_Scaria_a.png)
 ### ThingDef
 - `Vaccine_Scaria`
 - Gives `Vaccine_Scaria_Immunity`
