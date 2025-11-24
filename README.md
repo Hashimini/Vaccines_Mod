@@ -5,7 +5,7 @@ A mod made by me :) Created purely with XML and Aseprite 1.2.9x.
 ### Mod Function
 
 A simple mod that adds craftable vaccines to prevent most common illnesses.  
-Meant to be a better — and more expensive — alternative to Penoxycyline.
+Meant to be a better and more expensive alternative to Penoxycyline.
 
 You can check the [**Wiki**](https://github.com/Hashimini/Vaccines_Mod/blob/main/Wiki.md) for detailed information.
 
