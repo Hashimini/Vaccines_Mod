@@ -30,7 +30,7 @@ You can check the [**Wiki**](https://github.com/Hashimini/Vaccines_Mod/blob/main
 
 ## Installation
 
-- Download the mod from the Releases section, preferably the latest version.  
+- Download the mod from the [Releases](https://github.com/Hashimini/Vaccines_Mod/releases) section, preferably the latest version.  
 - Extract the download file with [WinRAR](https://www.win-rar.com/start.html?&L=9) or [7-Zip](https://www.7-zip.org/)
 - Place the extracted folder in your game’s Mods directory.  
   [If you don't know how to do this](https://youtu.be/n1UObUJXm3g?si=ka__VLiWMtZRDvUs&t=39)  
